@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #eee7e1;
+}
+
+p {
+  font-family: 'Bubbler One', sans-serif;
+}
+nav { 
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+h1, h2, header, nav {
+  font-family: 'Pavanam', sans-serif;
+}
+
+header {
+  font-size: 30px;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+img{
+width: 50%;
+height: 50%;
+}
+@media query(min-width: 860px)
